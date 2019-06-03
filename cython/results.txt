@@ -1,0 +1,82 @@
+('Database:', 'databases/chess.txt')
+('\tSupport:', 0.35)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 49.03616189956665)
+('\t\tMemory usage (Mb):', [3292.27734375])
+('\tSupport:', 0.3)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 104.61334490776062)
+('\t\tMemory usage (Mb):', [6593.59375])
+
+('Database:', 'databases/mushroom.txt')
+('\tSupport:', 0.25)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 0.3527810573577881)
+('\t\tMemory usage (Mb):', [28.9609375])
+('\tSupport:', 0.2)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 0.820885181427002)
+('\t\tMemory usage (Mb):', [37.54296875])
+('\tSupport:', 0.15)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 1.6845099925994873)
+('\t\tMemory usage (Mb):', [46.5859375])
+('\tSupport:', 0.1)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 3.951587200164795)
+('\t\tMemory usage (Mb):', [61.2578125])
+('\tSupport:', 0.05)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 10.80818510055542)
+('\t\tMemory usage (Mb):', [95.578125])
+('Database:', 'databases/connect.txt')
+('\tSupport:', 0.6)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 13.122103929519653)
+('\t\tMemory usage (Mb):', [240.0859375])
+('\tSupport:', 0.55)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 25.213901042938232)
+('\t\tMemory usage (Mb):', [276.67578125])
+('\tSupport:', 0.5)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 54.202553033828735)
+('\t\tMemory usage (Mb):', [311.90625])
+('\tSupport:', 0.45)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 100.07801008224487)
+('\t\tMemory usage (Mb):', [366.80859375])
+('\tSupport:', 0.4)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 210.21672701835632)
+('\t\tMemory usage (Mb):', [439.7578125])
+('Database:', 'databases/pumsb.txt')
+('\tSupport:', 0.7)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 24.47724986076355)
+('\t\tMemory usage (Mb):', [992.1640625])
+('\tSupport:', 0.65)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 52.05972599983215)
+('\t\tMemory usage (Mb):', [1840.75390625])
+('\tSupport:', 0.6)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 105.38276791572571)
+('\t\tMemory usage (Mb):', [3702.77734375])
+('\tSupport:', 0.55)
+	prepostplus:
