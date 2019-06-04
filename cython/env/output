@@ -1,0 +1,75 @@
+('Database:', 'databases/mushroom.txt')
+('\tSupport:', 0.25)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 0.27489614486694336)
+('\t\tMemory usage (Mb):', [29.01953125])
+('\tSupport:', 0.2)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 0.6879761219024658)
+('\t\tMemory usage (Mb):', [37.53515625])
+('\tSupport:', 0.15)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 1.5156590938568115)
+('\t\tMemory usage (Mb):', [46.5234375])
+('\tSupport:', 0.1)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 3.8664629459381104)
+('\t\tMemory usage (Mb):', [60.2890625])
+('\tSupport:', 0.05)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 10.167666912078857)
+('\t\tMemory usage (Mb):', [96.05859375])
+('Database:', 'databases/connect.txt')
+('\tSupport:', 0.6)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 12.673120021820068)
+('\t\tMemory usage (Mb):', [240.33203125])
+('\tSupport:', 0.55)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 25.91521906852722)
+('\t\tMemory usage (Mb):', [276.59765625])
+('\tSupport:', 0.5)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 49.415132999420166)
+('\t\tMemory usage (Mb):', [310.8359375])
+('\tSupport:', 0.45)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 100.929771900177)
+('\t\tMemory usage (Mb):', [366.5546875])
+('\tSupport:', 0.4)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 196.91042304039001)
+('\t\tMemory usage (Mb):', [439.5703125])
+('Database:', 'databases/pumsb.txt')
+('\tSupport:', 0.7)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 21.04205298423767)
+('\t\tMemory usage (Mb):', [992.12109375])
+('\tSupport:', 0.65)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 47.78107500076294)
+('\t\tMemory usage (Mb):', [1840.45703125])
+('\tSupport:', 0.6)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 101.98979687690735)
+('\t\tMemory usage (Mb):', [3666.31640625])
+('\tSupport:', 0.55)
+	prepostplus:
+prepostplus(transactions, support)
+('\t\tExecution time (s):', 306.05350399017334)
+('\t\tMemory usage (Mb):', [9359.1875])
+('\tSupport:', 0.5)
+	prepostplus:

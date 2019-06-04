@@ -21,7 +21,7 @@ def execute_fpgrowth(transactions, support):
     print("\t\tMemory usage (Mb):", mem2)
 
 def main():
-    input_files = ["databases/mushroom.txt", "databases/connect.txt", "databases/pumsb.txt"]
+    input_files = ["databases/pumsb.txt"]
     min_sups = {
         "databases/mushroom.txt": [.25, .2, .15, .1, .05],
         "databases/connect.txt": [.6, .55, .5, .45, .4],

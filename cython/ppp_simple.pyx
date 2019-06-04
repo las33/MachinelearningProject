@@ -169,7 +169,7 @@ def get_n_list(all_n_list, key):
     return all_n_list[key] if key in all_n_list else []
 
 
-def building_pattern_tree(node, cad_items, parent_fit, support, all_n_list, output_file, items_ordered):    
+def building_pattern_tree(node, cad_items, parent_fit, support, all_n_list, items_ordered):    
     node.equivalent_items = []
     node.child_nodes = []
     next_cad_items = []    
@@ -208,19 +208,13 @@ def building_pattern_tree(node, cad_items, parent_fit, support, all_n_list, outp
             nd_fit = []
             for cand_item in cand_itemsets:
                 for parent_item in parent_fit:
-                    nd_fit.append(('-'.join([cand_item[0], parent_item[0]]), node.support))                    
-        
-        for x in nd_fit:
-            output_file.write(x[0] + " #SUP: " + str(x[1]) + "\n")
+                    nd_fit.append(('-'.join([cand_item[0], parent_item[0]]), node.support))
                         
 
     if len(node.child_nodes) > 0:
         for n in node.child_nodes:
             aheads_ = [i for i in items_ordered[:items_ordered.index(n.label)] if i in next_cad_items]
-            if aheads_ == []:
-                output_file.write('-'.join(n.itemset) + " #SUP: " + str(n.support) + "\n")
-            else:
-                building_pattern_tree(n, aheads_, nd_fit, support, all_n_list, output_file, items_ordered)
+            building_pattern_tree(n, aheads_, nd_fit, support, all_n_list, items_ordered)
 
 
 def prepostplus(transactions, support):   
@@ -234,10 +228,6 @@ def prepostplus(transactions, support):
     F.sort(key=lambda x: x[0])
     F.sort(key=lambda x: x[1], reverse=True)
 
-    output_file = open('prepostplus_simple_output', 'w')
-
-    for x in F:
-        output_file.write(x[0] + " #SUP: " + str(x[1]) + "\n")
     items_ordered = [x[0] for x in F]
     
     n2_list = make_n2_list(n_list, items_ordered, support)
@@ -251,10 +241,7 @@ def prepostplus(transactions, support):
         node.label = key
         node.itemset = key.split('-')
         node.support = sum([item[1] for item in n_list])
-        output_file.write(key + " #SUP: " + str(node.support) + "\n")
-        building_pattern_tree(node, aheads, [], support, all_n_list, output_file, items_ordered)
-    
-    output_file.close()
+        building_pattern_tree(node, aheads, [], support, all_n_list, items_ordered)
 
 
 def execute_prepostplus_simple(transactions, support):

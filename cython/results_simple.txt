@@ -1,0 +1,67 @@
+('Database:', 'databases/mushroom.txt')
+('\tSupport:', 0.25)
+\prepostplus_simple:
+('\t\tExecution time (s):', 0.2670409679412842)
+('\t\tMemory usage (Mb):', [28.0703125])
+('\tSupport:', 0.2)
+\prepostplus_simple:
+('\t\tExecution time (s):', 0.6614868640899658)
+('\t\tMemory usage (Mb):', [36.04296875])
+('\tSupport:', 0.15)
+\prepostplus_simple:
+('\t\tExecution time (s):', 1.3143877983093262)
+('\t\tMemory usage (Mb):', [44.37890625])
+('\tSupport:', 0.1)
+\prepostplus_simple:
+('\t\tExecution time (s):', 3.165508985519409)
+('\t\tMemory usage (Mb):', [53.0234375])
+('\tSupport:', 0.05)
+\prepostplus_simple:
+('\t\tExecution time (s):', 7.534999132156372)
+('\t\tMemory usage (Mb):', [64.9921875])
+
+
+('Database:', 'databases/connect.txt')
+('\tSupport:', 0.6)
+\prepostplus_simple:
+('\t\tExecution time (s):', 3.7175471782684326)
+('\t\tMemory usage (Mb):', [216.42578125])
+('\tSupport:', 0.55)
+\prepostplus_simple:
+('\t\tExecution time (s):', 6.312458038330078)
+('\t\tMemory usage (Mb):', [286.30859375])
+('\tSupport:', 0.5)
+\prepostplus_simple:
+('\t\tExecution time (s):', 7.671923875808716)
+('\t\tMemory usage (Mb):', [286.578125])
+('\tSupport:', 0.45)
+\prepostplus_simple:
+('\t\tExecution time (s):', 13.218358993530273)
+('\t\tMemory usage (Mb):', [421.70703125])
+('\tSupport:', 0.4)
+\prepostplus_simple:
+('\t\tExecution time (s):', 29.329391956329346)
+('\t\tMemory usage (Mb):', [679.6171875])
+
+
+('Database:', 'databases/pumsb.txt')
+('\tSupport:', 0.7)
+\prepostplus_simple:
+('\t\tExecution time (s):', 8.721431970596313)
+('\t\tMemory usage (Mb):', [280.6796875])
+('\tSupport:', 0.65)
+\prepostplus_simple:
+('\t\tExecution time (s):', 15.965487957000732)
+('\t\tMemory usage (Mb):', [281.23828125])
+('\tSupport:', 0.6)
+\prepostplus_simple:
+('\t\tExecution time (s):', 31.560723066329956)
+('\t\tMemory usage (Mb):', [382.0])
+('\tSupport:', 0.55)
+\prepostplus_simple:
+('\t\tExecution time (s):', 87.86559009552002)
+('\t\tMemory usage (Mb):', [521.9296875])
+('\tSupport:', 0.5)
+\prepostplus_simple:
+('\t\tExecution time (s):', 229.85835099220276)
+('\t\tMemory usage (Mb):', [1440.80078125])

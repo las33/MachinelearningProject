@@ -1,0 +1,22 @@
+('Database:', 'databases/mushroom.txt')
+('\tSupport:', 0.25)
+	fpgrowth:
+('\t\tExecution time (s):', 5.294586896896362)
+('\t\tMemory usage (Mb):', [26.3203125])
+('\tSupport:', 0.2)
+	fpgrowth:
+('\t\tExecution time (s):', 9.537158966064453)
+('\t\tMemory usage (Mb):', [38.1796875])
+('\tSupport:', 0.15)
+	fpgrowth:
+('\t\tExecution time (s):', 14.888624906539917)
+('\t\tMemory usage (Mb):', [51.609375])
+('\tSupport:', 0.1)
+	fpgrowth:
+('\t\tExecution time (s):', 29.516055822372437)
+('\t\tMemory usage (Mb):', [133.9609375])
+('\tSupport:', 0.05)
+	fpgrowth:
+('\t\tExecution time (s):', 75.40277981758118)
+('\t\tMemory usage (Mb):', [740.9921875])
+

@@ -1,15 +1,3 @@
-('Database:', 'databases/chess.txt')
-('\tSupport:', 0.35)
-	prepostplus:
-prepostplus(transactions, support)
-('\t\tExecution time (s):', 49.03616189956665)
-('\t\tMemory usage (Mb):', [3292.27734375])
-('\tSupport:', 0.3)
-	prepostplus:
-prepostplus(transactions, support)
-('\t\tExecution time (s):', 104.61334490776062)
-('\t\tMemory usage (Mb):', [6593.59375])
-
 ('Database:', 'databases/mushroom.txt')
 ('\tSupport:', 0.25)
 	prepostplus:
@@ -36,6 +24,8 @@ prepostplus(transactions, support)
 prepostplus(transactions, support)
 ('\t\tExecution time (s):', 10.80818510055542)
 ('\t\tMemory usage (Mb):', [95.578125])
+
+
 ('Database:', 'databases/connect.txt')
 ('\tSupport:', 0.6)
 	prepostplus:
@@ -62,6 +52,8 @@ prepostplus(transactions, support)
 prepostplus(transactions, support)
 ('\t\tExecution time (s):', 210.21672701835632)
 ('\t\tMemory usage (Mb):', [439.7578125])
+
+
 ('Database:', 'databases/pumsb.txt')
 ('\tSupport:', 0.7)
 	prepostplus:
